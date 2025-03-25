@@ -107,7 +107,7 @@
             top: 20px;
             right: 20px;
             background: rgba(0, 0, 0, 0.6);
-            color: white;
+            color: black;
             padding: 10px;
             cursor: pointer;
             border-radius: 50%;
