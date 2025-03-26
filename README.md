@@ -29,13 +29,15 @@
             padding: 15px;
             z-index: 1000;
             transition: background 0.3s ease;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
         }
         nav a {
             color: white;
             text-decoration: none;
             padding: 10px 15px;
             margin: 5px;
-            display: inline-block;
             border-radius: 5px;
             transition: background 0.3s ease, transform 0.3s ease;
         }
@@ -47,7 +49,7 @@
         .container {
             max-width: 1000px;
             margin: auto;
-            padding: 80px 20px 20px;
+            padding: 100px 20px 20px;
         }
         .content {
             background: rgba(0, 0, 0, 0.8);
@@ -135,7 +137,6 @@
             }
         }
 
-        // Устанавливаем начальную тему при загрузке страницы
         window.onload = function () {
             let savedTheme = localStorage.getItem('theme');
             let body = document.body;
@@ -152,3 +153,4 @@
     </script>
 </body>
 </html>
+
