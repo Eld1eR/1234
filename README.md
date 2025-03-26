@@ -240,20 +240,32 @@
         </table>
     </div>
 
+    <div class="gallery">
+    <img src="https://assets.avtocod.ru/storage/images/bmw-e39-10-min.jpg" alt="BMW M5 E39">
+    <img src="https://st3.depositphotos.com/27209332/36552/i/450/depositphotos_365527008-stock-photo-quezon-city-june-bmw-528.jpg" alt="BMW M5 E39 вид сбоку">
+    <img src="https://content.onliner.by/news/1100x5616/f1bbbc74a24b566b860b85dd8e102cc1.jpeg" alt="Салон BMW M5 E39">
 </div>
-<footer>
-    © 2025 BMW M5 E39 Fan Club
-</footer>
 
-<!-- Скрипт для переключения тем -->
-<script>
-    let darkMode = false;
-    function toggleMode() {
-        darkMode = !darkMode;
-        document.body.className = darkMode ? 'dark-mode' : 'light-mode';
-        document.querySelector('.mode-toggle').innerText = darkMode ? '☀️' : '🌙';
+<style>
+    .gallery {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px auto;
+        max-width: 900px;
     }
-</script>
+    .gallery img {
+        width: 30%;
+        border-radius: 10px;
+        transition: transform 0.3s;
+    }
+    .gallery img:hover {
+        transform: scale(1.1);
+    }
+</style>
+
+
+</div>
 
 </body>
 </html>
